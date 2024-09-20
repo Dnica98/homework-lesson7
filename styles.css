@@ -44,11 +44,10 @@
 .parent{
     padding: 16px 16px;
     border: 1px solid black;
-    position: relative;
-    display: block;
+    position: absolute;
 }
 .child{
-    display: inline-block;
+    position: relative;
     margin-top: 60px;
     padding-top: 60px;
 }
@@ -72,9 +71,8 @@
 }
 
 .coitainer{
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap:16px;
